@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3001/)",
+      "Bash(curl -s \"http://localhost:3001/\")",
+      "Bash(find /Users/busycollins/projects/SITE -name \"*.pdf\" 2>/dev/null && find /Users/busycollins -maxdepth 3 -name \"*.pdf\" 2>/dev/null)",
+      "Read(//Users/busycollins/**)"
+    ]
+  }
+}
